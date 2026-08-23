@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "email": "artur12derr@mil.com",
+      "password": "$2a$10$uxLlOOTUtb2qIKrS4uRaUeDClsRarwTjsf3gdtISFUP8FAcjV2QG.",
+      "id": 1
+    },
+    {
+      "email": "artur12err@mail.com",
+      "password": "$2a$10$s2CKppdysPlqMIibnD3Fs.queQWQ9xhTS1cNpH2QBa4/xlmLlzXR.",
+      "id": 2
+    }
+  ]
+}

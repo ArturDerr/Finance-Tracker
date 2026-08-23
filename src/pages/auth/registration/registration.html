@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <div id="modal">
+        <div id="header">
+          <div id="logo-block">
+            <img src="/assets/images/logo.svg" class="logo" />
+          </div>
+          <div id="heading-block">
+            <h1 id="head-text">Зарегистрируйте аккаунт</h1>
+            <h3 id="Subtitle-text">Чтобы следить за аналитикой финансов</h3>
+          </div>
+        </div>
+        <div id="form-block">
+          <form action="" id="register-form">
+            <label for="email">
+              Почта
+              <input type="email" name="email" id="email" required />
+            </label>
+            <label for="password">
+              Пароль
+              <input type="password" name="password" id="password" required />
+            </label>
+            <label for="password">
+              Повторите пароль
+              <input
+                type="password"
+                name="password"
+                id="repeat-password"
+                required
+              />
+            </label>
+            <button type="submit" id="button">Регистрация</button>
+          </form>
+        </div>
+        <div id="footer">
+          <a>Уже есть аккаунт? <a href="login.html">Войти</a></a>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script type="module" src="registration.js"></script>
+</html>
