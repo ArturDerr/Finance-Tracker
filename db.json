@@ -10,5 +10,14 @@
       "password": "$2a$10$s2CKppdysPlqMIibnD3Fs.queQWQ9xhTS1cNpH2QBa4/xlmLlzXR.",
       "id": 2
     }
+  ],
+  "transactions": [
+    {
+      "title": "efe",
+      "category": "ewcwe",
+      "date": "2008-12-12",
+      "amount": 3232,
+      "id": 1
+    }
   ]
 }

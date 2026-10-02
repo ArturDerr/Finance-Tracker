@@ -15,7 +15,7 @@ registerForm.addEventListener("submit", async (e) => {
   if (password === repeatPassword) {
     try {
       const data = await registration(email, password);
-      console.log(data);
+      window.location.href = "/src/pages/main/dashboard/dashboard.html";
     } catch (error) {
       console.error("Ошибка", error);
       alert("Ошибка входа");

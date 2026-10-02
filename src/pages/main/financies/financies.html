@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Финансы</title>
+    <script type="module" src="./financies.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="form-block">
+        <form action="" id="fin-form">
+          <label for="name">
+            Название расхода
+            <input type="text" name="name" id="name" required />
+          </label>
+          <label for="category">
+            Категория
+            <input type="text" name="category" id="category" required />
+          </label>
+          <label for="summ">
+            Сумма
+            <input
+              type="number"
+              placeholder="1234"
+              name="summ"
+              id="summ"
+              required
+            />
+          </label>
+          <label for="date">
+            Дата
+            <input
+              type="date"
+              placeholder="19.01.2026"
+              name="date"
+              id="date"
+              required
+            />
+          </label>
+          <button type="submit" id="button">Добавить расход</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
